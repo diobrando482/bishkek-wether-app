@@ -1,0 +1,23 @@
+.icon-style {
+    font-size: 10em;
+    color: #44aadd;
+  }
+  
+  .btn {
+    background-color: #44aadd;
+    min-width: 80%;
+  }
+  
+  .card {
+    border: solid 1px ;
+    width: 20rem;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .col-auto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
