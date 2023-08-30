@@ -2,7 +2,6 @@ import React from 'react';
 import './Card.css';
 
 class Card extends React.Component {
-  // Props: day, key(index)
 
   render() {    
     const ms = this.props.day.dt * 1000;
@@ -10,7 +9,7 @@ class Card extends React.Component {
 
     const imgURL = "owf owf-"+ this.props.day.weather[0].id +" owf-5x icon-style"
 
-    // const farenheit = (parseInt(this.props.day.main.temp) - 273.15) * (9/5) + 32
+    
 
 
     return (
